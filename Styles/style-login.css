@@ -1,0 +1,63 @@
+.caixa-boasvindas {
+position: absolute;
+width: 50%;
+height: 100%;
+left: -50px;
+top: 0px;
+
+background: #57B9A3;
+border-radius: 49px;
+}
+
+.caixa-login{
+    position: absolute;
+width: 25%;
+height: 70%;
+right: 15%;
+top: 15%;
+
+background: #e0e0e0;
+border-radius: 51px;
+}
+
+.objeto-caixalogin{
+    position: relative;
+    box-align: center;
+    left: 8%;
+    width: 80%;
+    
+}
+
+.background-login {
+    background: #E5E5E5;
+}
+
+.text-boasvindas {
+    position: relative;
+    right: -10%;
+    top: 20%;
+    font-size: 115px;
+    color: #ffffff;
+}
+
+.text-login{
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-login{
+    position: relative;
+    right: -25%;
+    width: 50%;
+    height: 10%;
+    background: #57B9A3;
+    border-radius: 49px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
+

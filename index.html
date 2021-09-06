@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style-login.css">
+    <script type="module" src="index.js" defer></script>
+
+    <title>StrateegisCalendar</title>
+</head>
+<body>
+    <div id="caixabv" class="caixa-boasvindas" type="module">
+        <h1 id="textBemVindo" class="text-boasvindas">Bem vindo!</h1><br>
+        <p id="facalogin" class="text-login">Bem vindo! Faça login para sincronizar seus
+            pontos de encontro<br> na plataforma strateegia com sua google agenda
+            <br>automaticamente.</p>
+    </div>
+    <form method="POST" id="caixalogin" class="caixa-login">
+        <!-- Adicionar aqui as logos do google calendar e do strateegia -->
+        <h3 class="objeto-caixalogin">Login</h3>
+        <input id="login" type="email" name="email" size="30" class="objeto-caixalogin"
+         autocomplete="username"/> 
+        <h3 class="objeto-caixalogin">Senha</h3>
+        <input id="senha" type="password" name="senha" size="30" class="objeto-caixalogin"
+        autocomplete="current-password"/> <br><br>
+        <!-- Criar resquest HTTP Get para resgatar toke JWT-->
+        <button class="btn-login" id="btn">Log In</button>
+
+        
+
+    </form>    
+</body>
+</html>
